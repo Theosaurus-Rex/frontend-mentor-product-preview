@@ -554,11 +554,24 @@ video {
   display: none;
 }
 
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
 .font-montserrat {
   font-family: Montserrat, sans-serif;
 }
 
-.text-primary-cyan {
-  --tw-text-opacity: 1;
-  color: hsl(158 36% 37% / var(--tw-text-opacity, 1));
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
 }
