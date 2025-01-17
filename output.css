@@ -568,10 +568,6 @@ video {
   margin-bottom: 1.75rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -580,16 +576,20 @@ video {
   margin-bottom: 1rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mr-3 {
   margin-right: 0.75rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
 }
 
 .block {
@@ -616,18 +616,12 @@ video {
   justify-content: center;
 }
 
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
 }
 
 .rounded-t-xl {
@@ -663,17 +657,12 @@ video {
   text-align: center;
 }
 
-.font-montserrat {
-  font-family: Montserrat, sans-serif;
-}
-
 .font-fraunces {
   font-family: Fraunces, serif;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
+.font-montserrat {
+  font-family: Montserrat, sans-serif;
 }
 
 .text-3xl {
@@ -686,8 +675,9 @@ video {
   line-height: 1.25rem;
 }
 
-.font-semibold {
-  font-weight: 600;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -698,6 +688,10 @@ video {
   font-weight: 500;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -706,22 +700,8 @@ video {
   line-height: 1.5rem;
 }
 
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
-
 .tracking-\[5px\] {
   letter-spacing: 5px;
-}
-
-.text-primary-cyan {
-  --tw-text-opacity: 1;
-  color: hsl(158 36% 37% / var(--tw-text-opacity, 1));
-}
-
-.text-neutral-medium {
-  --tw-text-opacity: 1;
-  color: hsl(228 12% 48% / var(--tw-text-opacity, 1));
 }
 
 .text-neutral-dark {
@@ -729,9 +709,14 @@ video {
   color: hsl(212 21% 14% / var(--tw-text-opacity, 1));
 }
 
-.text-primary-cream {
+.text-neutral-medium {
   --tw-text-opacity: 1;
-  color: hsl(30 38% 92% / var(--tw-text-opacity, 1));
+  color: hsl(228 12% 48% / var(--tw-text-opacity, 1));
+}
+
+.text-primary-cyan {
+  --tw-text-opacity: 1;
+  color: hsl(158 36% 37% / var(--tw-text-opacity, 1));
 }
 
 .text-white {
