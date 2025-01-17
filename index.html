@@ -21,19 +21,23 @@
 
     <title>Frontend Mentor | Product preview card component</title>
   </head>
-  <body class="font-montserrat bg-primary-cream">
-    <main class="bg-neutral-light mx-4 my-7 rounded-xl">
+  <body
+    class="font-montserrat bg-primary-cream flex items-center justify-center flex-col"
+  >
+    <main
+      class="bg-neutral-light grid grid-cols-1 md:grid-cols-2 mx-4 my-7 rounded-xl"
+    >
       <img
-        class="hidden md:block"
+        class="hidden md:block col-start-1 col-span-1 w-full"
         src="images/image-product-desktop.jpg"
         alt="A photograph of a square glass bottle of perfune with a gold cap, labelled 'Gabrielle Chanel Paris'"
       />
       <img
-        class="block md:hidden rounded-t-xl"
+        class="block md:hidden rounded-t-xl col-start-1 col-span-1"
         src="images/image-product-mobile.jpg"
         alt="A photograph of a square glass bottle of perfune with a gold cap, labelled 'Gabrielle Chanel Paris'"
       />
-      <div class="m-6 pb-6">
+      <div class="m-6 pb-6 md:col-start-2 col-span-1">
         <span
           class="block text-xs font-medium tracking-[5px] mb-3 text-neutral-medium uppercase"
           >Perfume</span
