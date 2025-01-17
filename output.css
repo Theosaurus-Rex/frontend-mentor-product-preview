@@ -554,10 +554,11 @@ video {
   display: none;
 }
 
-.font-fraunces {
-  font-family: Fraunces, serif;
-}
-
 .font-montserrat {
   font-family: Montserrat, sans-serif;
+}
+
+.text-primary-cyan {
+  --tw-text-opacity: 1;
+  color: hsl(158 36% 37% / var(--tw-text-opacity, 1));
 }
