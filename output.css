@@ -620,6 +620,10 @@ video {
   height: 450px;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-\[300px\] {
   width: 300px;
 }
