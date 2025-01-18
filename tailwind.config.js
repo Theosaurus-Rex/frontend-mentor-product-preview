@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primary: {
           cyan: "hsl(158, 36%, 37%)",
+          "dark-cyan": "hsl(158, 40%, 18%)",
           cream: "hsl(30, 38%, 92%)",
         },
         neutral: {
